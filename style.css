@@ -33,3 +33,46 @@ footer {
     margin-left: 15%;
     margin-right: 15%;
 }
+
+#about-page, #bike-stuff-page {
+    display: none;
+}
+
+#home-button:hover, #bike-stuff-button:hover, #about-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#home-button {
+    text-decoration: underline;
+}
+
+.column-section {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    color: red;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    height: 250px;
+    
+}
+
+.column-1 {
+    background-color: black;
+    border-top-left-radius: 50px;
+}
+
+.column-2 {
+    background-color: rgb(175, 81, 81);
+}
+
+.column-3 {
+    background-color: rgb(57, 110, 57);
+}
+
+.column-4 {
+    background-color: rgb(64, 64, 161);
+}
+
+
